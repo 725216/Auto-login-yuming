@@ -13,7 +13,7 @@
 2. 在Actions菜单允许 `I understand my workflows, go ahead and enable them` 按钮
 
 3. 在 GitHub 仓库的 Settings → Secrets and variables → Actions 中添加以下环境变量
-- `ACCOUNTS`  Netlib账户(必填)，格式(单账号)：用户名:密码   格式(多账号)：用户名1:密码1,用户名2:密码2
+- `ACCOUNTS`  Netlib账户(必填)，格式(单账号)：user:pass   格式(多账号)：user1:pass1,user2:pass2 
 
 - telegra为可选环境变量,不需要通知可不填写
 - `BOT_TOKEN` 	Telegram机器人Token(https://t.me/BotFather)获取
